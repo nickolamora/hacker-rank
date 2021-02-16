@@ -1,16 +1,12 @@
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * There is a large pile of socks that must be paired by color.
+ * Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
+ */
 class SalesByMatch {
 
-  /**
-   * There is a large pile of socks that must be paired by color.
-   * Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
-   *
-   * @param n
-   * @param ar
-   * @return
-   */
   static int sockMerchant(int n, int[] ar) {
 
     Map<Integer, Integer> pairsMap = new HashMap<>();
